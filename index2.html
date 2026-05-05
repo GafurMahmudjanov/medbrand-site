@@ -285,70 +285,78 @@ footer a{color:var(--neon);text-decoration:none;font-weight:700;}
   </ul>
 </section>
 
-<!-- ─── БЛОК СТРАХА ─── -->
-<section class="fear reveal">
-  <div class="tag" style="background:rgba(230,57,70,0.15);color:#ff6b6b;">Важно прочитать</div>
-  <div class="bar" style="background:#e63946;"></div>
-  <h2>Что будет,<br>если не начать сейчас</h2>
+<!-- ─── БЛОК СТРАХА (В СТИЛЕ MEDBRAND) ─── -->
+<section class="fear reveal" style="background-color: #fff; padding: 60px 20px; font-family: sans-serif;">
+  
+  <!-- Тег в стиле "Частые вопросы" со скриншота -->
+  <div class="tag" style="background: #e1efff; color: #2b5a9e; padding: 8px 16px; border-radius: 50px; display: inline-block; font-weight: bold; font-size: 14px; text-transform: uppercase; margin-bottom: 15px;">
+    Важно прочитать
+  </div>
 
-  <p class="fear-intro">
-    Пока вы откладываете — <span>рынок уже перестраивается.</span> Пациенты больше не записываются по рекомендациям соседки. Они гуглят, листают Instagram и идут к тому врачу, которому <span>доверяют ещё до первого визита.</span>
+  <!-- Синяя полоска как под заголовком на фото -->
+  <div class="bar" style="background: #2b5a9e; width: 40px; height: 4px; margin-bottom: 20px;"></div>
+
+  <h2 style="color: #0d2344; font-size: 36px; font-weight: 900; line-height: 1.2; margin-bottom: 25px; text-transform: uppercase;">
+    Что будет,<br>если не начать сейчас
+  </h2>
+
+  <p class="fear-intro" style="color: #4a5568; font-size: 18px; line-height: 1.6; margin-bottom: 40px;">
+    Пока вы откладываете — <span style="font-weight: bold; color: #0d2344;">рынок уже перестраивается.</span> Пациенты больше не записываются по рекомендациям соседки. Они гуглят, листают Instagram и идут к тому врачу, которому <span style="background: #e1efff; color: #0d2344; padding: 2px 4px;">доверяют ещё до первого визита.</span>
   </p>
 
-  <div class="fear-stats">
-    <div class="fear-stat">
-      <div class="fear-stat-num">71%</div>
-      <div class="fear-stat-label">пациентов выбирают врача через соцсети и интернет до записи</div>
+  <div class="fear-stats" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 50px;">
+    <div class="fear-stat" style="border-left: 3px solid #2b5a9e; padding-left: 15px;">
+      <div class="fear-stat-num" style="color: #2b5a9e; font-size: 32px; font-weight: bold;">71%</div>
+      <div class="fear-stat-label" style="font-size: 14px; color: #4a5568;">пациентов выбирают врача через соцсети до записи</div>
     </div>
-    <div class="fear-stat">
-      <div class="fear-stat-num">3×</div>
-      <div class="fear-stat-label">больше зарабатывают врачи с личным брендом по сравнению с коллегами без него</div>
+    <div class="fear-stat" style="border-left: 3px solid #2b5a9e; padding-left: 15px;">
+      <div class="fear-stat-num" style="color: #2b5a9e; font-size: 32px; font-weight: bold;">3×</div>
+      <div class="fear-stat-label" style="font-size: 14px; color: #4a5568;">больше зарабатывают врачи с личным брендом</div>
     </div>
-    <div class="fear-stat">
-      <div class="fear-stat-num">54%</div>
-      <div class="fear-stat-label">людей доверяют блогерам-экспертам больше, чем официальным источникам</div>
-    </div>
-    <div class="fear-stat">
-      <div class="fear-stat-num">2x</div>
-      <div class="fear-stat-label">быстрее растёт практика у врачей, которые регулярно публикуют контент</div>
+    <div class="fear-stat" style="border-left: 3px solid #2b5a9e; padding-left: 15px;">
+      <div class="fear-stat-num" style="color: #2b5a9e; font-size: 32px; font-weight: bold;">54%</div>
+      <div class="fear-stat-label" style="font-size: 14px; color: #4a5568;">людей доверяют экспертам больше, чем клиникам</div>
     </div>
   </div>
 
-  <div class="fear-cards">
-    <div class="fear-card">
-      <span class="fear-card-icon">📱</span>
+  <div class="fear-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+    
+    <!-- Карточка 1 (Стиль как на фото) -->
+    <div class="fear-card" style="background: #f8fbff; border: 1px solid #e1efff; border-radius: 15px; padding: 25px; display: flex; gap: 15px;">
+      <span style="font-size: 24px;">📱</span>
       <div>
-        <h3>Ваши пациенты уже в Instagram — без вас</h3>
-        <p>Сегодня люди ищут ответы на медицинские вопросы не в поликлинике — они открывают Instagram и смотрят Reels. Если там нет вас, там есть <span class="red-hl">ваш конкурент.</span> Или, что хуже — инфоцыган без медицинского образования, который даёт вредные советы вашим будущим пациентам.</p>
+        <h3 style="color: #0d2344; margin-top: 0; margin-bottom: 10px; font-size: 18px; text-transform: uppercase;">Ваши пациенты уже в Instagram</h3>
+        <p style="color: #4a5568; font-size: 15px; line-height: 1.5;">Если там нет вас, там есть <span style="background: #e1efff; color: #0d2344; font-weight: bold;">ваш конкурент.</span> Пациенты смотрят Reels и делают выбор прямо сейчас.</p>
       </div>
     </div>
-    <div class="fear-card">
-      <span class="fear-card-icon">🤖</span>
-      <div>
-        <h3>Люди спрашивают ChatGPT вместо врача — это опасно</h3>
-        <p>Когда у человека болит живот, он уже не звонит в скорую — он спрашивает ИИ. Без голоса реального эксперта-врача в соцсетях <span class="red-hl">пациенты совершают ошибки</span>, ставят себе диагнозы и занимаются самолечением. Ваш контент — это не реклама. Это <span class="red-hl">ваш долг</span> как специалиста.</p>
-      </div>
-    </div>
-    <div class="fear-card">
-      <span class="fear-card-icon">💸</span>
-      <div>
-        <h3>Разрыв в доходе между врачами с брендом и без — растёт каждый год</h3>
-        <p>Врач с аудиторией в 20–50К подписчиков может <span class="red-hl">поднять стоимость приёма в 2–3 раза</span> и работать по предоплате. Врач без бренда вынужден конкурировать только ценой — и всегда проигрывает тому, кому доверяют. <span class="red-hl">Каждый месяц промедления — это упущенный доход.</span></p>
-      </div>
-    </div>
-    <div class="fear-card">
-      <span class="fear-card-icon">📈</span>
-      <div>
-        <h3>Соцсети заполняются — войти завтра будет дороже</h3>
-        <p>В 2020 году завести блог в Instagram было просто. В 2023 — уже сложнее. <span class="red-hl">Сегодня — самое дешёвое время для старта.</span> Алгоритмы ещё дают органический охват врачам-экспертам. Через год конкуренция вырастет в разы, и вход будет стоить намного дороже.</p>
-      </div>
-    </div>
-  </div>
 
-  <div class="fear-cta-block">
-    <h3>Не знаете с чего начать?<br>Начните с бесплатного осмотра.</h3>
-    <p>За 20 минут я разберу ваш профиль, укажу на слабые места и дам конкретный план — бесплатно и без обязательств.</p>
-    <a href="https://forms.gle/3zZyRF2fxaArnQCv5" class="btn-neon">🩺 Хочу записаться на осмотр</a>
+    <!-- Карточка 2 -->
+    <div class="fear-card" style="background: #f8fbff; border: 1px solid #e1efff; border-radius: 15px; padding: 25px; display: flex; gap: 15px;">
+      <span style="font-size: 24px;">🤖</span>
+      <div>
+        <h3 style="color: #0d2344; margin-top: 0; margin-bottom: 10px; font-size: 18px; text-transform: uppercase;">Риск самолечения</h3>
+        <p style="color: #4a5568; font-size: 15px; line-height: 1.5;">Без голоса реального врача <span style="background: #e1efff; color: #0d2344; font-weight: bold;">пациенты совершают ошибки</span>, доверяя ИИ. Ваш контент — это ваш профессиональный долг.</p>
+      </div>
+    </div>
+
+    <!-- Карточка 3 -->
+    <div class="fear-card" style="background: #f8fbff; border: 1px solid #e1efff; border-radius: 15px; padding: 25px; display: flex; gap: 15px;">
+      <span style="font-size: 24px;">💸</span>
+      <div>
+        <h3 style="color: #0d2344; margin-top: 0; margin-bottom: 10px; font-size: 18px; text-transform: uppercase;">Разрыв в доходе</h3>
+        <p style="color: #4a5568; font-size: 15px; line-height: 1.5;">Врач с брендом может <span style="background: #e1efff; color: #0d2344; font-weight: bold;">поднять чек в 2-3 раза.</span> Без бренда вы вынуждены конкурировать только самой низкой ценой.</p>
+      </div>
+    </div>
+
+    <!-- Карточка 4 -->
+    <div class="fear-card" style="background: #f8fbff; border: 1px solid #e1efff; border-radius: 15px; padding: 25px; display: flex; gap: 15px;">
+      <span style="font-size: 24px;">📈</span>
+      <div>
+        <h3 style="color: #0d2344; margin-top: 0; margin-bottom: 10px; font-size: 18px; text-transform: uppercase;">Завтра будет дороже</h3>
+        <p style="color: #4a5568; font-size: 15px; line-height: 1.5;"><span style="background: #e1efff; color: #0d2344; font-weight: bold;">Сегодня — лучшее время для старта.</span> Через год алгоритмы изменятся, и цена входа в рынок вырастет в разы.</p>
+      </div>
+    </div>
+
   </div>
 </section>
 
